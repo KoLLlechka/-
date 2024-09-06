@@ -34,7 +34,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(982, 503);
+            ClientSize = new Size(1132, 503);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -46,5 +46,7 @@
         private Label text;
         private ComboBox comboBox1;
         private Label label1;
+        private Label label2;
+        private TextBox textBox1;
     }
 }
