@@ -1,4 +1,6 @@
-﻿namespace ЯП2_Лаб1
+﻿using ЯП2_Лаб1.Properties;
+
+namespace ЯП2_Лаб1
 {
     partial class Form1
     {
@@ -43,10 +45,17 @@
 
         #endregion
 
-        private Label text;
-        private ComboBox comboBox1;
-        private Label label1;
-        private Label label2;
-        private TextBox textBox1;
+        private Label textTask;
+        private ComboBox tasks;
+        private Label chooseTask;
+        private Label inputValue;
+        private TextBox value1;
+        private TextBox value2;
+        private TextBox value3;
+        private Button outputButton;
+        private Label valueText1;
+        private Label valueText2;
+        private Label valueText3;
+        private Label answer;
     }
 }
