@@ -13,8 +13,8 @@ namespace ЯП2_Лаб1
             comboBox1 = new ComboBox();
             label1 = new Label();
             text = new Label();
-            int x = this.ClientSize.Width;
-            int y = this.ClientSize.Height;
+            int x = this.Size.Width;
+            int y = this.Size.Height;
             // 
             // comboBox1
             // 
@@ -22,7 +22,7 @@ namespace ЯП2_Лаб1
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Задание 1", "Задание 2", "Задание 3" });
             //comboBox1.Location = new Point(656, 52);
-            comboBox1.Location = new Point(x - 330, y - 455);
+            comboBox1.Location = new Point(x - 330, y - 505);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(293, 28);
             comboBox1.TabIndex = 0;
@@ -31,7 +31,7 @@ namespace ЯП2_Лаб1
             // 
             label1.AutoSize = true;
             //label1.Location = new Point(656, 19);
-            label1.Location = new Point(x - 330, y - 485);
+            label1.Location = new Point(x - 330, y - 530);
             label1.Name = "label1";
             label1.Size = new Size(146, 20);
             label1.TabIndex = 1;
