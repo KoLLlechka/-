@@ -107,7 +107,7 @@ namespace ЯП2_Лаб1
         }
         public static String listNums(int x)
         {
-            String nums = String.Empty;
+            String nums = String.Empty; 
             for (int i = 0; i <= x; i++)
             {
                 nums += i.ToString() + ' ';
@@ -216,6 +216,11 @@ namespace ЯП2_Лаб1
             return maxv;
         }
         // Массивы. Задание 5
+        public static bool IndexNotOutside(string[] arr, string pos)
+        {
+            return IsStringToIntArray(arr) && IsStringToInt(pos)
+                && int.Parse(pos) <= arr.Length && int.Parse(pos) >= 0;
+        }
         public static int[] add(int[] arr, int[] ins, int pos)
         {
             int[] arr2 = new int[arr.Length + ins.Length];

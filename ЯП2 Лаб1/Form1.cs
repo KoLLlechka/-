@@ -336,7 +336,7 @@ namespace ЯП2_Лаб1
                     break;
                 case "Массивы. Задание 5":
                     answer.Text = InputIsCorrect(
-                        () => Tasks.IsStringToIntArray(value1.Text.Split(' ')) && Tasks.IsStringToIntArray(value2.Text.Split(' ')) && Tasks.IsStringToInt(value3.Text),
+                        () => Tasks.IsStringToIntArray(value1.Text.Split(' ')) && Tasks.IsStringToIntArray(value2.Text.Split(' ')) && Tasks.IndexNotOutside(value1.Text.Split(' '), value3.Text),
                         () => Tasks.IntArrToString(Tasks.add(Tasks.StringToIntArr(value1.Text.Split(' ')), Tasks.StringToIntArr(value2.Text.Split(' ')), int.Parse(value3.Text))));
                     break;
                 case "Массивы. Задание 7":
